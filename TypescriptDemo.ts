@@ -1,0 +1,11 @@
+let isDone: boolean = true;
+let decimals: number = 5;
+let hex: number = 0xf00D;
+let binary: number = 0b1010;
+let octal: number = 0o744;
+
+let message: string = '';
+
+let messages: string[] = ['Message 1', 'Message 2', 'Message 3', 'Message 4', 'Message5'];
+let strictMessage: Array<number> = [1, 2];
+let strictMessage1: Array<string> = ['a', 'b', 'c', 'd', 'e', 'f'];
