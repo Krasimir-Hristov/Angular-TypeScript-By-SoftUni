@@ -14,3 +14,8 @@ let strictMessage2: ['Message 1', 'Message 2', 'Message 3'] = ['Message 1', 'Mes
 let strictMessage3: ['Message 1', number] = ['Message 1', 1];
 
 let anyType: any = {};
+
+enum Truck {
+    Ford = 'ford',
+    Tesla = 'tesla'
+}
