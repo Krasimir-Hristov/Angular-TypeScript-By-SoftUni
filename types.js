@@ -37,3 +37,12 @@ class Suv {
 }
 const suv = new Suv('BMW');
 suv.drive();
+function identity(arg) {
+    return arg;
+}
+;
+let output = identity('myString');
+const setNumber = new Set();
+setNumber.add(1);
+const setString = new Set();
+setString.add('1');
