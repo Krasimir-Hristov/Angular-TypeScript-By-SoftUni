@@ -1,4 +1,4 @@
-let isDone: boolean = true;
+let isDone: boolean = false;
 let decimals: number = 5;
 let hex: number = 0xf00D;
 let binary: number = 0b1010;
