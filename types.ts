@@ -18,4 +18,9 @@ let anyType: any = {};
 enum Truck {
     Ford = 'ford',
     Tesla = 'tesla'
+};
+
+enum Car {
+    BMW = 1,
+    Ford = 2,
 }
