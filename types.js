@@ -46,3 +46,4 @@ const setNumber = new Set();
 setNumber.add(1);
 const setString = new Set();
 setString.add('1');
+export {};

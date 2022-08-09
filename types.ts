@@ -1,3 +1,5 @@
+import { NumberValidator } from "./Numbervalidator";
+
 let isDone: boolean = true;
 let decimals: number = 5;
 let hex: number = 0xf00D;
