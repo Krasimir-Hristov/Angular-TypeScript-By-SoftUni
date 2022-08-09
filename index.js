@@ -1,4 +1,4 @@
-var isDone = false;
+var isDone = true;
 var decimals = 5;
 var hex = 0xf00D;
 var binary = 10;

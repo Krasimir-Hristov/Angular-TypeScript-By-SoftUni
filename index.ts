@@ -1,4 +1,4 @@
-let isDone: boolean = false;
+let isDone: boolean = true;
 let decimals: number = 5;
 let hex: number = 0xf00D;
 let binary: number = 0b1010;
@@ -12,3 +12,5 @@ let strictMessage1: Array<string> = ['a', 'b', 'c', 'd', 'e', 'f'];
 
 let strictMessage2: ['Message 1', 'Message 2', 'Message 3'] = ['Message 1', 'Message 2', 'Message 3'];
 let strictMessage3: ['Message 1', number] = ['Message 1', 1];
+
+let anyType: any = {};
