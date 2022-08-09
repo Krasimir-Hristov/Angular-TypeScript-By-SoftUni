@@ -24,3 +24,16 @@ enum Car {
     BMW = 1,
     Ford = 2,
 }
+
+
+const car: {
+    engine: {
+        power: number,
+    }
+    doors: number,
+} = {
+    engine: {
+        power: 500
+    },
+    doors:2
+}

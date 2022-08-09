@@ -15,3 +15,9 @@ var Truck;
     Truck["Ford"] = "ford";
     Truck["Tesla"] = "tesla";
 })(Truck || (Truck = {}));
+;
+var Car;
+(function (Car) {
+    Car[Car["BMW"] = 1] = "BMW";
+    Car[Car["Ford"] = 2] = "Ford";
+})(Car || (Car = {}));
