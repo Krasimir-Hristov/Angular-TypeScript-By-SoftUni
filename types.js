@@ -21,3 +21,19 @@ var Car;
     Car[Car["BMW"] = 1] = "BMW";
     Car[Car["Ford"] = 2] = "Ford";
 })(Car || (Car = {}));
+const car = {
+    engine: {
+        power: 500
+    },
+    doors: 2
+};
+class Suv {
+    constructor(model) {
+        this.model = model;
+    }
+    drive() {
+        console.log(`I am driving ${this.model}`);
+    }
+}
+const suv = new Suv('BMW');
+suv.drive();

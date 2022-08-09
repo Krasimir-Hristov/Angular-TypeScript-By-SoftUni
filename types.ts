@@ -37,3 +37,18 @@ const car: {
     },
     doors:2
 }
+
+
+class Suv {
+    constructor(public  model: string) {
+
+
+    }
+
+    drive(): void {
+        console.log(`I am driving ${this.model}`)
+    }
+}
+
+const suv = new Suv('BMW');
+suv.drive();
