@@ -9,3 +9,5 @@ let message: string = '';
 let messages: string[] = ['Message 1', 'Message 2', 'Message 3', 'Message 4', 'Message5'];
 let strictMessage: Array<number> = [1, 2];
 let strictMessage1: Array<string> = ['a', 'b', 'c', 'd', 'e', 'f'];
+
+let strictMessage2: ['Message 1', 'Message 2', 'Message 3'] = ['Message 1', 'Message 2', 'Message 3'];
